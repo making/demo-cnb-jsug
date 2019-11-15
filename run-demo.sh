@@ -96,5 +96,10 @@ pe "docker images"
 printf "\033[32m⭐️ Dockerイメージを実行します \033[0m\n"
 pe "docker run --rm  \\
     -p 8080:8080  \\
+    making/hello-jsug"
+
+printf "\033[32m⭐️ Ansi Colorを有効にします \033[0m\n"
+pe "docker run --rm  \\
+    -p 8080:8080  \\
     -e SPRING_OUTPUT_ANSI_ENABLED=ALWAYS  \\
     making/hello-jsug"
