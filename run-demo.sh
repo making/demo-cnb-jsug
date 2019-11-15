@@ -10,7 +10,7 @@ TYPE_SPEED=1000
 
 ############
 
-printf "\033[32m⭐️ Spring Boot Projectの雛形を作成します \033[0m\n"
+printf "\033[32m⭐️ Spring InitializrでSpring Boot Projectの雛形を作成します \033[0m\n"
 pe "curl https://start.spring.io/starter.tgz \\
   -d javaVersion=11 \\
   -d artifactId=hello-jsug  \\
